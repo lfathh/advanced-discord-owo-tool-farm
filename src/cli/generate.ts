@@ -25,11 +25,11 @@ export const handler = async (argv: { filename: string }) => {
         musicPath: "./path/to/music.mp3",
         prefix: "!",
         captchaAPI: "2captcha",
-        apiKey: "<your-captcha-api-key>",
-        autoHuntbot: true,
+        apiKey: "e78192ad2fbafe8429566d87d4b1b05e",
+        autoHuntbot: false,
         autoTrait: "efficiency",
         useAdotfAPI: true,
-        autoPray: ["pray", "pray some-ID-here"],
+        autoPray: ["pray", "1052913902054281267"],
         autoGem: 1,
         gemTier: ["common", "uncommon", "rare", "epic", "mythical"],
         useSpecialGem: false,
@@ -59,5 +59,6 @@ export const handler = async (argv: { filename: string }) => {
     logger.info(t("cli.generate.configGenerated", { filePath }));
 
 };
+
 
 

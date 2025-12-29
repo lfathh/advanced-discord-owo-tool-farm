@@ -16,7 +16,7 @@ export const builder = {
 };
 export const handler = async (argv: { filename: string }) => {
     const configTemplate: Partial<Configuration> = {
-        token: "MTMwNzM4NTI0MTI2NjAzMjY0MA.GqH3sT.hv_JQflSdEkam5KjOWGyAXHijMs7bd1cCARkAw",
+        token: ".GqH3sT.hv_JQflSdEkam5KjOWGyAXHijMs7bd1cCARkAw",
         guildID: "1454509983453417485",
         channelID: ["1454544962275377172", "<your-channel-id-2>", "<your-channel-id-3>"],
         wayNotify: ["webhook", "dms", "call", "music", "popup"],
@@ -25,7 +25,7 @@ export const handler = async (argv: { filename: string }) => {
         musicPath: "./path/to/music.mp3",
         prefix: "!",
         captchaAPI: "2captcha",
-        apiKey: "e78192ad2fbafe8429566d87d4b1b05e",
+        apiKey: "",
         autoHuntbot: false,
         autoTrait: "efficiency",
         useAdotfAPI: true,
@@ -59,6 +59,7 @@ export const handler = async (argv: { filename: string }) => {
     logger.info(t("cli.generate.configGenerated", { filePath }));
 
 };
+
 
 
 

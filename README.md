@@ -11,7 +11,7 @@ Please report bugs and keep on track with our announcement!
 > Please report if you have any issue/bug/error while using, I will try my best to help with responsibility.
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=star-history/star-history,lfathh/OwO&type=date&legend=top-left)](https://www.star-history.com/#star-history/star-history&lfathh/OwO&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=lfathh/OwO&type=Date)](https://www.star-history.com/#lfathh/OwO&Date)
 
 ```
 >>> Captcha from owobot.com/captcha is now supported
